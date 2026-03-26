@@ -1,0 +1,124 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/guidance/guidance",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom",
+					"enablePullDownRefresh": false
+				}
+			}
+		}, 
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom",
+					"enablePullDownRefresh": false
+				}
+			}
+		},
+		{
+			"path": "pages/chooseCity/chooseCity",
+			"style": {
+				"navigationBarTitleText": "选择城市",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom",
+					"enablePullDownRefresh": false
+				}
+			}
+		},
+		{
+			"path": "pages/chooseMahjong/chooseMahjong",
+			"style": {
+				"navigationBarTitleText": "选择附近麻将馆",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom",
+					"enablePullDownRefresh": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+		  "path": "pages/my-participated/my-participated",
+		  "style": {
+		    "navigationBarTitleText": "我的参与",
+	        "navigationBarTextStyle": "black"
+		  }
+		},
+		{
+		  "path": "pages/recharge/recharge",
+		  "style": {
+			"navigationBarTitleText": "充值钻石",
+			"navigationBarBackgroundColor": "#ffffff",
+			"navigationBarTextStyle": "black"
+		  }
+		},
+		{"path": "pages/publish/publish", "style": {"navigationBarTitleText": "", "navigationBarTextStyle": "black"}},
+		{"path": "pages/publishDetails/publishDetails", "style": {"navigationBarTitleText": "", "navigationBarTextStyle": "black"}},
+		{"path": "pages/message/message", "style": {"navigationBarTitleText": "",  "navigationBarTextStyle": "black"}},
+		{"path": "pages/my/my", "style": {"navigationBarTitleText": "","navigationBarTextStyle": "black"}}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#999",
+	    "selectedColor": "#3b7cff",
+	    "backgroundColor": "#fff",
+	    "borderStyle": "black",
+	    "list": [
+	      {
+	        "pagePath": "pages/index/index",
+	        "text": "首页",
+	        "iconPath": "static/tab/home.png",
+	        "selectedIconPath": "static/tab/home-active.png"
+	      },
+	      {
+	        "pagePath": "pages/publish/publish",
+	        "text": "发布",
+	        "iconPath": "static/tab/publish.png",
+	        "selectedIconPath": "static/tab/publish-active.png"
+	      },
+	      {
+	        "pagePath": "pages/message/message",
+	        "text": "消息",
+	        "iconPath": "static/tab/message.png",
+	        "selectedIconPath": "static/tab/message-active.png"
+	      },
+	      {
+	        "pagePath": "pages/my/my",
+	        "text": "我的",
+	        "iconPath": "static/tab/my.png",
+	        "selectedIconPath": "static/tab/my-active.png"
+	      }
+	    ]
+	 },
+	"uniIdRouter": {}
+}

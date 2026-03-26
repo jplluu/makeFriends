@@ -1,0 +1,13 @@
+target/
+*.class
+*.jar
+*.war
+*.ear
+.settings/
+.project
+.classpath
+application.yml
+.hbuilderx
+node_modules/
+unpackage/
+manifest.json
